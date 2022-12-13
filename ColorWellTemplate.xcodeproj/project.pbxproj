@@ -13,6 +13,7 @@
 		DAECB66D2948E2910084B543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAECB66B2948E2910084B543 /* Main.storyboard */; };
 		DAECB66F2948E2930084B543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAECB66E2948E2930084B543 /* Assets.xcassets */; };
 		DAECB6722948E2930084B543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAECB6702948E2930084B543 /* LaunchScreen.storyboard */; };
+		DAECB67A2948E2A60084B543 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAECB6792948E2A60084B543 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DAECB66E2948E2930084B543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAECB6712948E2930084B543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAECB6732948E2930084B543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAECB6792948E2A60084B543 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DAECB66E2948E2930084B543 /* Assets.xcassets */,
 				DAECB6702948E2930084B543 /* LaunchScreen.storyboard */,
 				DAECB6732948E2930084B543 /* Info.plist */,
+				DAECB6792948E2A60084B543 /* UIColor+Ext.swift */,
 			);
 			path = ColorWellTemplate;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAECB66A2948E2910084B543 /* ViewController.swift in Sources */,
+				DAECB67A2948E2A60084B543 /* UIColor+Ext.swift in Sources */,
 				DAECB6662948E2910084B543 /* AppDelegate.swift in Sources */,
 				DAECB6682948E2910084B543 /* SceneDelegate.swift in Sources */,
 			);
